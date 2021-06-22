@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:iot_app/AppConfig.dart';
+import 'package:iot_app/appconfig.dart';
 
 class SettingsPage extends StatefulWidget {
   SettingsPage(this.appConfig);
@@ -44,8 +44,8 @@ class _SettingsState extends State<SettingsPage> {
             },
           );
         },
-        tooltip: 'Show me the value!',
-        child: Icon(Icons.text_fields),
+        tooltip: 'Save Settings',
+        child: Icon(Icons.save),
       ),
     );
   }
